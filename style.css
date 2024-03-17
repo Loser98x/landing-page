@@ -86,11 +86,48 @@ button {
   flex-direction: column;
   align-items: center;
   margin-left: 45px;
+  margin-bottom: 45px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 10%;
 }
 
+.quote {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  background-color: #e5e7eb;
+  padding: 45px;
+}
 
+.call {
+  display: flex;
+  justify-content: center;
+  color: #f9faf8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #3882f6;
+  border-radius: 10px;
+  margin: 100px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.button2 {
+  border-style: solid;
+  border-color: #f9faf8;
+  margin: 10px 10px 10px 300px;
+
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 10px;
+
+}
 
 
 
